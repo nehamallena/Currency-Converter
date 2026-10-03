@@ -11,7 +11,7 @@ A simple currency converter website built using HTML, CSS, and JavaScript.
 - Responsive design
 
 ## Technologies Used
-
+- Java
 - HTML
 - CSS
 - JavaScript
