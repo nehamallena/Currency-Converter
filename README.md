@@ -1,20 +1,48 @@
 # Currency Converter
 
-A simple currency converter website built using HTML, CSS, and JavaScript.
+A currency converter project developed using **Java, HTML, CSS, and JavaScript**.
+
+The project includes a **Java-based currency converter** and a **web-based currency converter** that supports multiple Asian currencies using predefined exchange rates.
+
+## Java Version
+
+The Java version is a console-based application that:
+
+- Takes the amount from the user
+- Takes the source currency
+- Takes the target currency
+- Converts the amount using predefined exchange rates
+- Displays the converted result
+- Validates unsupported currencies
+
+**Java file:** `CurrencyConverter.java`
+
+## Web Version
+
+The web version provides a simple graphical interface using:
+
+- HTML
+- CSS
+- JavaScript
+
+It allows users to enter an amount, select currencies, and view the converted result instantly.
 
 ## Features
 
 - Convert between multiple Asian currencies
+- Java console application
+- Web-based currency converter
 - Simple and user-friendly interface
 - Instant currency conversion
 - Predefined exchange rates
 - Responsive design
 
 ## Technologies Used
-- Java
-- HTML
-- CSS
-- JavaScript
+
+- **Java** – Console-based currency converter
+- **HTML** – Website structure
+- **CSS** – Website styling
+- **JavaScript** – Conversion logic and interaction
 
 ## Supported Currencies
 
@@ -41,8 +69,20 @@ A simple currency converter website built using HTML, CSS, and JavaScript.
 
 ## How to Use
 
-1. Enter the amount.
-2. Select the source currency.
-3. Select the target currency.
-4. Click **Convert**.
-5. View the converted amount.
+### Java Version
+
+1. Open `CurrencyConverter.java`.
+2. Compile and run the program.
+3. Enter the amount.
+4. Enter the source currency.
+5. Enter the target currency.
+6. View the converted amount.
+
+### Web Version
+
+1. Open `index.html`.
+2. Enter the amount.
+3. Select the source currency.
+4. Select the target currency.
+5. Click **Convert**.
+6. View the converted amount.
